@@ -7,7 +7,7 @@
   height: 43vh;
   pointer-events: none;
   border-radius: 5vh;
-  margin-top: 65px;
+  margin-top: 7vh;
   border: 9px solid transparent;
  /* border-color: rgb(37, 15, 228);*/
  border-color: whitesmoke;
@@ -33,7 +33,7 @@
   /*background-color: aliceblue;*/
   
   border-radius: 500px;
-  margin-top: 50px;
+  margin-top: 1vh;
   height: 190px;
 }
 .App-link {
@@ -90,3 +90,93 @@ h1{
    transform: scale(1.3);
    transition: .5s ease;
  }
+
+ .work{
+   margin-top: 20vh;
+   background-color: rgb(107, 77, 214);
+   width: 80vh;
+   border-top-left-radius: 3vh;
+   border-top-right-radius: 0.01vh;
+  
+ }
+
+.aboutMe{
+  margin-top: 8vh;
+  background-color: rgb(107, 77, 214);
+  width: 80vh;
+  border-top-left-radius: 3vh;
+  border-top-right-radius: 0.01vh;
+
+
+  
+}
+
+.aboutMeInfo{
+  width: 80vh;
+   margin-top: -0.5vh;
+   background-color: aliceblue;
+   border-bottom-right-radius: 3vh;
+ 
+}
+
+
+ .experience{
+   background-color: aliceblue;
+   width: 80vh;
+   margin-top: -0.5vh;
+  border-bottom-right-radius: 3vh;
+ }
+
+
+ .ztr{
+  border: 1vh rgb(26, 25, 25) solid;
+  border-radius: 5vh;
+  width: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 2vh;
+  color: black;
+ 
+}
+.ztrLogo{
+  width: 19vh;
+  margin-top: 10px;
+}
+
+.ztr:hover{
+  transform: scale(1.025);
+  transition: .1s ease;
+}
+
+h3{
+  color: blue;
+}
+
+.TU{
+  border: 1vh rgb(216, 70, 70) solid;
+  border-radius: 5vh;
+  width: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 2vh;
+  color: black;
+  margin-bottom: 30px;
+}
+.TU:hover{
+  transform: scale(1.025);
+  transition: .1s ease;
+}
+.tuLogo{
+  width: 30vh;
+  margin-top: 20px;
+}
+
+.aboutBikram{
+  font-size: 30px;
+  color: rgb(36, 33, 33);
+  text-align: center;
+  padding: 10px;
+  
+}
