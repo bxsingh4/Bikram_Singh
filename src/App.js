@@ -36,15 +36,17 @@ function App() {
           <div className='experience'>
           <div className='ztr'>
             <img src={ZTR} className='ztrLogo'/>
-            <h2>Quality Assurance Engineering Intern</h2>
-            <h3> September 2021 - December 2021</h3>
-            <p> worked in blah blah </p>
+            <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
+            <h3 class="workPeriod"> September 2021 - December 2021</h3>
+            <p className='workDescription'> Automated and tested  UI and API components for  client applications serving 
+              various fleets of construction equipement and rental companies.</p>
           </div>
           <div className='TU'>
             <img src={TU} className='tuLogo' />
-            <h2>Quality Assurance Engineering Intern</h2>
-            <h3> January 2022 - Present</h3>
-            <p> worked in blah blah </p>
+            <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
+            <h3 class="workPeriod"> January 2022 - Present</h3>
+            <p className='workDescription'> Automated and tested  UI and API components for  client applications serving 
+              various fleets of construction equipments for rental companies.</p>
           </div>
         </div>
 
@@ -53,7 +55,7 @@ function App() {
         </div>
         <div className='aboutMeInfo'>
           <p class='aboutBikram'>Hi! I'm Bikram , a fourth year Software Engineering student at the University of Western Ontario. 
-          My primary interests are full stack web development, application automation ,  and data science.</p>
+          My primary interests are full stack web development, application automation , machine learning , and data science.</p>
         </div>
 
         <br></br>
