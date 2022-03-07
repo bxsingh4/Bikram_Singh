@@ -9,19 +9,30 @@
   border-radius: 5vh;
   margin-top: 7vh;
   border: 9px solid transparent;
- /* border-color: rgb(37, 15, 228);*/
- border-color: whitesmoke;
+  border-color: whitesmoke;
 }
-/*change*/
+
+.myPhoto{
+  height: 24vh;
+  border-radius: 1vh;
+  margin-top: 3vh;
+  margin-right: 2vh;
+  border: 3px solid transparent;
+  border-color: rgb(148, 148, 148);
+  float: left;
+  margin-left: 5vh;
+}
+
 .App-header {
-  /*background-color: #000d1a;*/
-  background-color: #091929;
+  /*background-color: #091929; 161614 */
+  background-color: #80868b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgb(107, 77, 214);
+  /*color: rgb(107, 77, 214);*/
+  color: #460488;
   /*color: rgb(214, 86, 12);*/
   /*font-family: 'Maven Pro', sans-serif;*/
   font-size: 10vh;
@@ -45,8 +56,8 @@
 }
 
 h1{
-  font-size: 30px;
-  color: aliceblue;
+  font-size: 4vh;
+  color: whitesmoke;
 }
 
 
@@ -93,44 +104,47 @@ h1{
 
  .work{
    margin-top: 20vh;
-   background-color: rgb(107, 77, 214);
+   background-color: #460488;
    width: 90vh;
-   border-top-left-radius: 3vh;
-   border-top-right-radius: 0.01vh;
+   border-top-left-radius: 2vh;
+   border-top-right-radius: 2vh;
   
  }
 
 .aboutMe{
   margin-top: 8vh;
-  background-color: rgb(107, 77, 214);
+  /*background-color: rgb(107, 77, 214);*/
+  background-color: #460488;
   width: 90vh;
-  border-top-left-radius: 3vh;
-  border-top-right-radius: 0.01vh;
-
-
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
   
 }
 
 .aboutMeInfo{
   width: 90vh;
-   margin-top: -0.5vh;
-   background-color: aliceblue;
-   border-bottom-right-radius: 3vh;
- 
+  margin-top: -0.5vh;
+  background-color: #e6e6e6;
+  border-bottom-right-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+  
+  
 }
 
 
  .experience{
-   background-color: aliceblue;
+   background-color: #e6e6e6;
    width: 90vh;
    margin-top: -0.5vh;
-  border-bottom-right-radius: 3vh;
+  border-bottom-right-radius: 2vh;
+  border-bottom-left-radius: 2vh;
  }
 
 
  .ztr{
   border: 1vh rgb(26, 25, 25) solid;
-  border-radius: 5vh;
+  border-radius: 1vh;
+  background-color:  #f2f2f2;
   width: 70vh;
   margin-left: auto;
   margin-right: auto;
@@ -141,7 +155,7 @@ h1{
 }
 .ztrLogo{
   width: 19vh;
-  margin-top: 2vh;
+  margin-top: 1vh;
 }
 
 .ztr:hover{
@@ -155,7 +169,8 @@ h3{
 
 .TU{
   border: 1vh rgb(216, 70, 70) solid;
-  border-radius: 5vh;
+  background-color:  #f2f2f2;
+  border-radius: 1vh;
   width: 70vh;
   margin-left: auto;
   margin-right: auto;
@@ -175,24 +190,52 @@ h3{
 }
 
 .aboutBikram{
-  font-size: 28px;
+  margin-top: 5vh;
+  font-size: 3vh;
   color: rgb(36, 33, 33);
+  margin-right: 4vh;
+  font-style: normal;
+  font-weight: normal;
   text-align: justify;
-  padding: 40px;
   
 }
 .workDescription{
   margin-top: -3vh;
   color: rgb(36, 33, 33);
   text-align: justify;
-  padding: 30px;
+  padding: 20px;
+  font-weight: normal;
+}
+.reach{
+  text-align: center;
+  font-size: 3vh;
+  font-weight: bold;
+  color: rgb(66, 66, 66);
+
+}
+
+.mail{
+  width: 8vh;
+  float:left;
+  margin-bottom: 2vh;
+  margin-right: 2vh;
+  margin-left: 16vh;
+  
+}
+.email{
+  font-size: 3vh;
+  font-weight: normal;
+  float:left;
+  color: black;
+  margin-top: 1vh;
+  color: rgb(66, 66, 66);
 }
 
 .workPeriod{
   text-align: justify;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .jobTitle{
   text-align: justify;
-  padding-left: 30px;
+  padding-left: 20px;
 }

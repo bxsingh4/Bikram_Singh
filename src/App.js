@@ -1,10 +1,11 @@
 import me from './Bikram.jpg';
+import photo2 from './Photo2.jpg';
 import linked from './linkedin-app.svg';
 import github from './icons8-github.svg';
 import resume from './resume.svg';
 import ZTR from './ztr.png';
-import TU from './logo-trackunit.png'
-import at from './at_sign.png';
+import TU from './logo-trackunit.png';
+import mail from './svg.svg';
 import './App.css';
 
 function App() {
@@ -38,14 +39,15 @@ function App() {
             <img src={ZTR} className='ztrLogo'/>
             <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
             <h3 class="workPeriod"> September 2021 - December 2021</h3>
-            <p className='workDescription'> Automated and tested  UI and API components for  client applications serving 
-              various fleets of construction equipement and rental companies.</p>
+            <p className='workDescription'> Automated and tested  UI and API components for large scale client 
+            applications serving various fleets of construction equipments for rental companies.</p>
           </div>
           <div className='TU'>
             <img src={TU} className='tuLogo' />
             <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
             <h3 class="workPeriod"> January 2022 - Present</h3>
-            <p className='workDescription'> Automated and tested  UI and API components for  client applications serving 
+            <p className='workDescription'> Automated and tested  UI and API components for large scale 
+            client applications serving 
               various fleets of construction equipments for rental companies.</p>
           </div>
         </div>
@@ -54,10 +56,15 @@ function App() {
           <h1>About Me</h1>
         </div>
         <div className='aboutMeInfo'>
-          <p class='aboutBikram'>Hi! I'm Bikram , a fourth year Software Engineering student at the University of Western Ontario. 
-          My primary interests are full stack web development, application automation , machine learning , and data science.</p>
+        <img src={photo2} className="myPhoto" alt="logo" />
+          <p className='aboutBikram'>Hi! I'm Bikram, a fourth year Software Engineering student at the University of Western Ontario. 
+          My primary interests are full stack web development, application automation,machine learning, and data science.</p>
+          <h5 className='reach'> Feel free to reach out!</h5>
+          <a target="_blank" > <img src={mail} className="mail" /></a>
+          <p className='email'> singhbikramjit767@gmail.com</p>
+          
         </div>
-
+        
         <br></br>
 
       </header>
