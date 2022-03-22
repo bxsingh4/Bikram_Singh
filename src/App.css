@@ -3,13 +3,15 @@
   
 }
 
-.App-logo {
+/* Photos CSS */
+.webPhoto{
   height: 43vh;
   pointer-events: none;
   border-radius: 5vh;
   margin-top: 7vh;
   border: 9px solid transparent;
   border-color: whitesmoke;
+  box-shadow: 5px 5px 5px rgb(59, 59, 59)
 }
 
 .myPhoto{
@@ -21,6 +23,7 @@
   border-color: rgb(148, 148, 148);
   float: left;
   margin-left: 5vh;
+  box-shadow: 5px 5px 5px rgb(59, 59, 59)
 }
 
 .App-header {
@@ -31,26 +34,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*color: rgb(107, 77, 214);*/
   color: #460488;
-  /*color: rgb(214, 86, 12);*/
-  /*font-family: 'Maven Pro', sans-serif;*/
   font-size: 10vh;
   font-weight: bolder;
 }
 
 
 .info{
-  /*background-color: aliceblue;*/
-  
   border-radius: 500px;
   margin-top: 1vh;
   height: 190px;
 }
+
 .App-link {
   color: #eff6f8;
   font-size: 5vh;
-  margin-top: -10vh;
+  margin-top: -8vh;
   text-decoration:  overline;
 
 }
@@ -58,12 +57,13 @@
 h1{
   font-size: 4vh;
   color: whitesmoke;
+  text-decoration: overline solid 3px;
+  font-weight: bold;
+  
 }
 
 
 .linked{
- /* width: 100px;
-  margin: 30px;*/
   width: 10vh;
   margin: 4.7vh;
   transition: .5s ease;
@@ -105,6 +105,7 @@ h1{
  .work{
    margin-top: 20vh;
    background-color: #460488;
+   box-shadow: 5px 5px 5px rgb(59, 59, 59);
    width: 90vh;
    border-top-left-radius: 2vh;
    border-top-right-radius: 2vh;
@@ -113,13 +114,14 @@ h1{
 
 .aboutMe{
   margin-top: 8vh;
-  /*background-color: rgb(107, 77, 214);*/
   background-color: #460488;
+  box-shadow: 5px 5px 5px rgb(59, 59, 59);
   width: 90vh;
   border-top-left-radius: 2vh;
   border-top-right-radius: 2vh;
   
 }
+
 
 .aboutMeInfo{
   width: 90vh;
@@ -127,17 +129,19 @@ h1{
   background-color: #e6e6e6;
   border-bottom-right-radius: 2vh;
   border-bottom-left-radius: 2vh;
-  
+  box-shadow: 5px 5px 5px rgb(59, 59, 59);
   
 }
 
 
  .experience{
-   background-color: #e6e6e6;
-   width: 90vh;
-   margin-top: -0.5vh;
+  background-color: #e6e6e6;
+  box-shadow: 5px 5px 5px rgb(59, 59, 59);
+  width: 90vh;
+  margin-top: -0.5vh;
   border-bottom-right-radius: 2vh;
   border-bottom-left-radius: 2vh;
+  
  }
 
 
@@ -145,6 +149,7 @@ h1{
   border: 1vh rgb(26, 25, 25) solid;
   border-radius: 1vh;
   background-color:  #f2f2f2;
+  box-shadow: 5px 5px 5px rgb(59, 59, 59);
   width: 70vh;
   margin-left: auto;
   margin-right: auto;
@@ -163,12 +168,11 @@ h1{
   transition: .1s ease;
 }
 
-h3{
-  color: blue;
-}
+
 
 .TU{
   border: 1vh rgb(216, 70, 70) solid;
+  box-shadow: 5px 5px 5px rgb(59, 59, 59);
   background-color:  #f2f2f2;
   border-radius: 1vh;
   width: 70vh;
@@ -191,13 +195,13 @@ h3{
 
 .aboutBikram{
   margin-top: 5vh;
-  font-size: 3vh;
+  font-size: 2.6vh;
   color: rgb(36, 33, 33);
   margin-right: 4vh;
   font-style: normal;
   font-weight: normal;
   text-align: justify;
-  
+  margin-left: 2vh;
 }
 .workDescription{
   margin-top: -3vh;
@@ -205,6 +209,7 @@ h3{
   text-align: justify;
   padding: 20px;
   font-weight: normal;
+  font-size: 2.5vh;
 }
 .reach{
   text-align: center;
@@ -215,11 +220,12 @@ h3{
 }
 
 .mail{
-  width: 8vh;
+  width: 6vh;
   float:left;
   margin-bottom: 2vh;
   margin-right: 2vh;
-  margin-left: 16vh;
+  margin-left: 19vh;
+
   
 }
 .email{
@@ -227,13 +233,14 @@ h3{
   font-weight: normal;
   float:left;
   color: black;
-  margin-top: 1vh;
+  margin-top: 0.5vh;
   color: rgb(66, 66, 66);
 }
 
 .workPeriod{
   text-align: justify;
   padding-left: 20px;
+  color: #422ff0;
 }
 .jobTitle{
   text-align: justify;

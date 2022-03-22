@@ -13,22 +13,13 @@ function App() {
     <div className="App">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <header className="App-header">
-        <img src={me} className="App-logo" alt="logo" />
-        <p>
-           Bikram Jit Singh
-        </p>
-        <a
-          className="App-link"
-          
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-           Software Engineer 
-        </a>
+        <img src={me} className="webPhoto" alt="logo" />
+        <p>Bikram Jit Singh</p>
+        <a className="App-link" target="_blank" rel="noopener noreferrer" >Software Engineer </a>
         <div className='info'>
         <a target="_blank" href='https://github.com/bxsingh4'> <img src={github} className="git" /></a>
         <a target="_blank" href="https://www.linkedin.com/in/bikram04/"><img src={linked} className="linked"/></a>
-        <a target="_blank" href="https://www.linkedin.com/in/bikram04/"><img src={resume} className="resume"/></a>
+        <a target="_blank" href="https://drive.google.com/drive/folders/1PhB3V4GK7k-Y86N89H0wTncDbtdq7Uzb?usp=sharing"><img src={resume} className="resume"/></a>
         </div>
       
         <div className='work'>
@@ -39,16 +30,15 @@ function App() {
             <img src={ZTR} className='ztrLogo'/>
             <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
             <h3 class="workPeriod"> September 2021 - December 2021</h3>
-            <p className='workDescription'> Automated and tested  UI and API components for large scale client 
-            applications serving various fleets of construction equipments for rental companies.</p>
+            <p className='workDescription'> Automated and tested  UI and API components for large scale 
+            client applications for production and analyzing fleet telematics data gathered for various construction rental companies.</p>
           </div>
           <div className='TU'>
             <img src={TU} className='tuLogo' />
             <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
             <h3 class="workPeriod"> January 2022 - Present</h3>
             <p className='workDescription'> Automated and tested  UI and API components for large scale 
-            client applications serving 
-              various fleets of construction equipments for rental companies.</p>
+            client applications for production and analyzing fleet telematics data gathered for various construction rental companies.</p>
           </div>
         </div>
 
@@ -58,7 +48,8 @@ function App() {
         <div className='aboutMeInfo'>
         <img src={photo2} className="myPhoto" alt="logo" />
           <p className='aboutBikram'>Hi! I'm Bikram, a fourth year Software Engineering student at the University of Western Ontario. 
-          My primary interests are full stack web development, application automation,machine learning, and data science.</p>
+          My primary interests are full stack web development, application automation, machine learning, and data science. Driven by the
+           passion of learning , I constantly look for challenges to help build my character.</p>
           <h5 className='reach'> Feel free to reach out!</h5>
           <a target="_blank" > <img src={mail} className="mail" /></a>
           <p className='email'> singhbikramjit767@gmail.com</p>
