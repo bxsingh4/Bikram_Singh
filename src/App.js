@@ -30,15 +30,16 @@ function App() {
             <img src={ZTR} className='ztrLogo'/>
             <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
             <h3 class="workPeriod"> September 2021 - December 2021</h3>
-            <p className='workDescription'> Automated and tested  UI and API components for large scale 
-            client applications for production and analyzing fleet telematics data gathered for various construction rental companies.</p>
+            <p className='workDescription'> Tested various mobile and web applications used to analyze fleet data producted by ZTR telematics devices. Ensured all newly developed products, both hardware and software, 
+            are tested to meet company quality standards. </p>
           </div>
           <div className='TU'>
             <img src={TU} className='tuLogo' />
             <h2 className='jobTitle'>Quality Assurance Engineering Intern</h2>
             <h3 class="workPeriod"> January 2022 - Present</h3>
-            <p className='workDescription'> Automated and tested  UI and API components for large scale 
-            client applications for production and analyzing fleet telematics data gathered for various construction rental companies.</p>
+            <p className='workDescription'> Automated and tested  large scale 
+            client applications used to produce and analyze fleet telematics data  for various construction rental companies. Scope of automation included
+            UI and API components of several web based applications.</p>
           </div>
         </div>
 
@@ -47,9 +48,9 @@ function App() {
         </div>
         <div className='aboutMeInfo'>
         <img src={photo2} className="myPhoto" alt="logo" />
-          <p className='aboutBikram'>Hi! I'm Bikram, a fourth year Software Engineering student at the University of Western Ontario. 
-          My primary interests are full stack web development, application automation, machine learning, and data science. Driven by the
-           passion of learning , I constantly look for challenges to help build my character.</p>
+          <p className='aboutBikram'>Hi! I'm Bikram, a fourth year Software Engineering student at the University of Western Ontario. My
+          primary interests are full stack web development, application automation, machine learning, and data science. Driven by the
+           passion of learning, I constantly look for challenges to help build my character.</p>
           <h5 className='reach'> Feel free to reach out!</h5>
           <a target="_blank" > <img src={mail} className="mail" /></a>
           <p className='email'> singhbikramjit767@gmail.com</p>

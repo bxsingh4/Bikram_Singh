@@ -7,28 +7,27 @@
 .webPhoto{
   height: 43vh;
   pointer-events: none;
-  border-radius: 5vh;
+  border-radius: 3vh;
   margin-top: 7vh;
-  border: 9px solid transparent;
+  margin-bottom: -6vh;
+  border: 3px solid transparent;
   border-color: whitesmoke;
   box-shadow: 5px 5px 5px rgb(59, 59, 59)
 }
 
 .myPhoto{
   height: 24vh;
-  border-radius: 1vh;
+  border-radius: 0.5vh;
   margin-top: 3vh;
   margin-right: 2vh;
   border: 3px solid transparent;
-  border-color: rgb(148, 148, 148);
   float: left;
   margin-left: 5vh;
   box-shadow: 5px 5px 5px rgb(59, 59, 59)
 }
 
 .App-header {
-  /*background-color: #091929; 161614 */
-  background-color: #80868b;
+  background-color: #859aa1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -106,7 +105,7 @@ h1{
    margin-top: 20vh;
    background-color: #460488;
    box-shadow: 5px 5px 5px rgb(59, 59, 59);
-   width: 90vh;
+   width: 110vh;
    border-top-left-radius: 2vh;
    border-top-right-radius: 2vh;
   
@@ -116,7 +115,7 @@ h1{
   margin-top: 8vh;
   background-color: #460488;
   box-shadow: 5px 5px 5px rgb(59, 59, 59);
-  width: 90vh;
+  width: 110vh;
   border-top-left-radius: 2vh;
   border-top-right-radius: 2vh;
   
@@ -124,7 +123,7 @@ h1{
 
 
 .aboutMeInfo{
-  width: 90vh;
+  width: 110vh;
   margin-top: -0.5vh;
   background-color: #e6e6e6;
   border-bottom-right-radius: 2vh;
@@ -137,7 +136,7 @@ h1{
  .experience{
   background-color: #e6e6e6;
   box-shadow: 5px 5px 5px rgb(59, 59, 59);
-  width: 90vh;
+  width: 110vh;
   margin-top: -0.5vh;
   border-bottom-right-radius: 2vh;
   border-bottom-left-radius: 2vh;
@@ -150,7 +149,7 @@ h1{
   border-radius: 1vh;
   background-color:  #f2f2f2;
   box-shadow: 5px 5px 5px rgb(59, 59, 59);
-  width: 70vh;
+  width: 90vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3vh;
@@ -175,7 +174,7 @@ h1{
   box-shadow: 5px 5px 5px rgb(59, 59, 59);
   background-color:  #f2f2f2;
   border-radius: 1vh;
-  width: 70vh;
+  width: 90vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3vh;
@@ -197,7 +196,7 @@ h1{
   margin-top: 5vh;
   font-size: 2.6vh;
   color: rgb(36, 33, 33);
-  margin-right: 4vh;
+  margin-right: 6vh;
   font-style: normal;
   font-weight: normal;
   text-align: justify;
@@ -212,7 +211,7 @@ h1{
   font-size: 2.5vh;
 }
 .reach{
-  text-align: center;
+  margin-top: 10vh;
   font-size: 3vh;
   font-weight: bold;
   color: rgb(66, 66, 66);
@@ -224,7 +223,7 @@ h1{
   float:left;
   margin-bottom: 2vh;
   margin-right: 2vh;
-  margin-left: 19vh;
+  margin-left: 30vh;
 
   
 }
