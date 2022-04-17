@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Bikram_Singh/static/css/main.2b5527a5.css",
-    "main.js": "/Bikram_Singh/static/js/main.191c08f7.js",
+    "main.css": "/Bikram_Singh/static/css/main.e9b21600.css",
+    "main.js": "/Bikram_Singh/static/js/main.73af01bf.js",
     "static/js/787.6b35a8bc.chunk.js": "/Bikram_Singh/static/js/787.6b35a8bc.chunk.js",
     "static/media/Bikram.jpg": "/Bikram_Singh/static/media/Bikram.3fc1932610b41371c19e.jpg",
     "static/media/Photo2.jpg": "/Bikram_Singh/static/media/Photo2.0320382b2cf6315f5833.jpg",
@@ -10,12 +10,12 @@
     "static/media/svg.svg": "/Bikram_Singh/static/media/svg.1ed7079a15acd1c824e6d23319776c6e.svg",
     "index.html": "/Bikram_Singh/index.html",
     "static/media/linkedin-app.svg": "/Bikram_Singh/static/media/linkedin-app.2298f9259beb960fb95720c8da3eef6a.svg",
-    "main.2b5527a5.css.map": "/Bikram_Singh/static/css/main.2b5527a5.css.map",
-    "main.191c08f7.js.map": "/Bikram_Singh/static/js/main.191c08f7.js.map",
+    "main.e9b21600.css.map": "/Bikram_Singh/static/css/main.e9b21600.css.map",
+    "main.73af01bf.js.map": "/Bikram_Singh/static/js/main.73af01bf.js.map",
     "787.6b35a8bc.chunk.js.map": "/Bikram_Singh/static/js/787.6b35a8bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b5527a5.css",
-    "static/js/main.191c08f7.js"
+    "static/css/main.e9b21600.css",
+    "static/js/main.73af01bf.js"
   ]
 }
